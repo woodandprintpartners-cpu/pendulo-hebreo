@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ver Péndulo Hebreo en tu Teléfono Móvil</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      color: #ffffff;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    .card {
+      background: #ffffff;
+      color: #1e293b;
+      max-width: 480px;
+      width: 100%;
+      padding: 35px 30px;
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    h1 {
+      font-size: 22px;
+      color: #1e3a8a;
+      margin-bottom: 8px;
+    }
+    p {
+      font-size: 14px;
+      color: #64748b;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    .qr-frame {
+      background: #f8fafc;
+      border: 2px dashed #cbd5e1;
+      border-radius: 12px;
+      padding: 18px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    .qr-img {
+      width: 220px;
+      height: 220px;
+      display: block;
+      margin: 0 auto;
+    }
+    .url-box {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 25px;
+    }
+    .url-text {
+      font-family: monospace;
+      font-size: 18px;
+      font-weight: bold;
+      color: #1d4ed8;
+      letter-spacing: 0.5px;
+    }
+    .steps-list {
+      text-align: left;
+      font-size: 13px;
+      color: #334155;
+      background: #f1f5f9;
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      line-height: 1.7;
+    }
+    .steps-list ol {
+      margin-left: 18px;
+    }
+    .btn-open-pc {
+      display: inline-block;
+      background: #0d9488;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .btn-open-pc:hover {
+      background: #0f766e;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div style="font-size: 38px; margin-bottom: 8px;">📱</div>
+    <h1>Abre el Curso en tu Teléfono</h1>
+    <p>Apunta con la cámara de tu móvil a este código para abrir la aplicación directamente:</p>
+
+    <div class="qr-frame">
+      <img src="qr_movil.png" alt="Código QR para móvil" class="qr-img">
+    </div>
+
+    <div class="url-box">
+      <div style="font-size: 11px; text-transform: uppercase; color: #64748b; font-weight: bold; margin-bottom: 4px;">O escribe esta dirección en Safari / Chrome:</div>
+      <div class="url-text" id="mobile-url-display">http://192.168.18.231:8080</div>
+    </div>
+
+    <div class="steps-list">
+      <strong>Instrucciones sencillas:</strong>
+      <ol>
+        <li>Asegúrate de que tu teléfono móvil está conectado a la <strong>misma red Wi-Fi</strong> de tu casa.</li>
+        <li>Abre la app de la Cámara de tu teléfono y enfoca al código QR, o escribe la dirección de arriba en tu navegador.</li>
+        <li>¡Listo! Podrás seguir los módulos, consultar las etiquetas y usar el asistente cómodamente desde el móvil o la tablet en el sofá o la cama.</li>
+      </ol>
+    </div>
+
+    <a href="index.html" class="btn-open-pc">💻 Abrir también aquí en el ordenador</a>
+  </div>
+
+</body>
+</html>

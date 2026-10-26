@@ -1,0 +1,16 @@
+{
+  "name": "Péndulo Hebreo • Guía Paso a Paso",
+  "short_name": "Péndulo Hebreo",
+  "description": "Formación práctica completa y asistente clínico de Péndulo Hebreo",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e3a8a",
+  "icons": [
+    {
+      "src": "qr_movil.png",
+      "sizes": "250x250",
+      "type": "image/png"
+    }
+  ]
+}
